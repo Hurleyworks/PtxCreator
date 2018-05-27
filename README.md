@@ -17,4 +17,5 @@ The build system assumes that you've installed Optix and Cuda in their default l
 You'll need to change the "logFolder" path in NanoApp.cpp and the "defaultFolder" in NanoView.h to paths that work on your machine
 
 If you use the "Create Ptx header" option, PtxCreator will generate a c++ header file with the Ptx source embedded in a string so your application doesn't need to load any ptx files from disk.
-![] (screenshot/PtxCreator.jpg)
+
+![](screenshot/PtxCreator.jpg)
