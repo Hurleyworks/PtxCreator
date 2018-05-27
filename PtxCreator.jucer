@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Iah4zk" name="PtxCreator" projectType="consoleapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.PtxCreator" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.0" defines="NANOGUI_GLAD&#10;NANOGUI_SHARED&#10;NVG_SHARED&#10;GLAD_GLAPI_EXPORT&#10;">
+  <MAINGROUP id="iax753" name="PtxCreator">
+    <GROUP id="{523E1D20-B87F-EE6F-B3CB-200FD0C049A9}" name="Source">
+      <FILE id="Xwi8v0" name="FileTools.h" compile="0" resource="0" file="Source/FileTools.h"/>
+      <FILE id="ogREZI" name="main.cpp" compile="1" resource="0" file="Source/main.cpp"/>
+      <FILE id="fKlD0x" name="PtxCreator.cpp" compile="1" resource="0" file="Source/PtxCreator.cpp"/>
+      <FILE id="pS3Ny5" name="PtxCreator.h" compile="0" resource="0" file="Source/PtxCreator.h"/>
+      <FILE id="KUBpKm" name="NanoController.cpp" compile="1" resource="0"
+            file="Source/NanoController.cpp"/>
+      <FILE id="MIp8kG" name="NanoController.h" compile="0" resource="0"
+            file="Source/NanoController.h"/>
+      <FILE id="EiP1Sw" name="NanoLog.cpp" compile="1" resource="0" file="Source/NanoLog.cpp"/>
+      <FILE id="qudpKo" name="NanoLog.hpp" compile="0" resource="0" file="Source/NanoLog.hpp"/>
+      <FILE id="ECif0A" name="NanoModel.cpp" compile="1" resource="0" file="Source/NanoModel.cpp"/>
+      <FILE id="iCKBMX" name="NanoModel.h" compile="0" resource="0" file="Source/NanoModel.h"/>
+      <FILE id="eWDHHy" name="NanoView.cpp" compile="1" resource="0" file="Source/NanoView.cpp"/>
+      <FILE id="f1F6tt" name="NanoView.h" compile="0" resource="0" file="Source/NanoView.h"/>
+      <FILE id="NrzLOn" name="PtxHandler.cpp" compile="1" resource="0" file="Source/PtxHandler.cpp"/>
+      <FILE id="sLIenM" name="PtxHandler.h" compile="0" resource="0" file="Source/PtxHandler.h"/>
+      <FILE id="t9jxqT" name="Standard.h" compile="0" resource="0" file="Source/Standard.h"/>
+      <FILE id="hvpaI3" name="StopWatch.h" compile="0" resource="0" file="Source/StopWatch.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" externalLibraries="glfw_objects.lib&#10;nanogui.lib&#10;opengl32.lib&#10;nvrtc.lib"
+            extraDefs="_CRT_SECURE_NO_DEPRECATE&#10;_SCL_SECURE_NO_WARNINGS&#10;NOMINMAX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="PtxCreator" headerPath="..\..\nanogui&#10;..\..\nanogui\include&#10;..\..\nanogui\ext\eigen&#10;..\..\nanogui\ext\glad\include&#10;..\..\nanogui\ext\glfw\include&#10;..\..\nanogui\ext\nanovg\src&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\cupti\include&#10;C:\ProgramData\NVIDIA Corporation\OptiX SDK 5.1.0\include&#10;"
+                       libraryPath="..\..\nanogui\build\Debug&#10;..\..\nanogui\build\ext_build\glfw\src\glfw_objects.dir\Debug&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64"
+                       defines="" useRuntimeLibDLL="1"/>
+        <CONFIGURATION name="Release" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="PtxCreator" headerPath="..\..\nanogui&#10;..\..\nanogui\include&#10;..\..\nanogui\ext\eigen&#10;..\..\nanogui\ext\glad\include&#10;..\..\nanogui\ext\glfw\include&#10;..\..\nanogui\ext\nanovg\src&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\cupti\include&#10;C:\ProgramData\NVIDIA Corporation\OptiX SDK 5.1.0\include&#10;"
+                       libraryPath="..\..\nanogui\build\Release&#10;..\..\nanogui\build\ext_build\glfw\src\glfw_objects.dir\Release&#10;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64"
+                       useRuntimeLibDLL="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

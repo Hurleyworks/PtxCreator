@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{425BD5C7-54D7-4E8B-79F9-59148A080C9C}") = "PtxCreator", "PtxCreator.vcxproj", "{F966012B-C70D-FAD1-6BBE-B19F918D2A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F966012B-C70D-FAD1-6BBE-B19F918D2A52}.Debug|x64.ActiveCfg = Debug|x64
+		{F966012B-C70D-FAD1-6BBE-B19F918D2A52}.Debug|x64.Build.0 = Debug|x64
+		{F966012B-C70D-FAD1-6BBE-B19F918D2A52}.Release|x64.ActiveCfg = Release|x64
+		{F966012B-C70D-FAD1-6BBE-B19F918D2A52}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
