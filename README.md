@@ -4,7 +4,7 @@ Windows only tool for compiling cuda source into ptx files and c++ headers for u
 
 Build instructions for vs2015
 
-1. clone this repository with the --recursive option to bring in the nanogui submodule. The current Release version of Nanogui does not appear to be stable, at least on my machine, so only use the Debug version of PtxCreator for now.
+1. clone this repository with the --recursive option to bring in the Nanogui submodule. The current Release version of Nanogui does not appear to be stable, at least on my machine, so only use the Debug version of PtxCreator for now.
 
 git clone --recursive https://github.com/Hurleyworks/PtxCreator.git
 
