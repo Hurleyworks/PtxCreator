@@ -7,8 +7,8 @@
     <GROUP id="{523E1D20-B87F-EE6F-B3CB-200FD0C049A9}" name="Source">
       <FILE id="Xwi8v0" name="FileTools.h" compile="0" resource="0" file="Source/FileTools.h"/>
       <FILE id="ogREZI" name="main.cpp" compile="1" resource="0" file="Source/main.cpp"/>
-      <FILE id="fKlD0x" name="PtxCreator.cpp" compile="1" resource="0" file="Source/PtxCreator.cpp"/>
-      <FILE id="pS3Ny5" name="PtxCreator.h" compile="0" resource="0" file="Source/PtxCreator.h"/>
+      <FILE id="DgYG35" name="NanoApp.cpp" compile="1" resource="0" file="Source/NanoApp.cpp"/>
+      <FILE id="IBQFEp" name="NanoApp.h" compile="0" resource="0" file="Source/NanoApp.h"/>
       <FILE id="KUBpKm" name="NanoController.cpp" compile="1" resource="0"
             file="Source/NanoController.cpp"/>
       <FILE id="MIp8kG" name="NanoController.h" compile="0" resource="0"

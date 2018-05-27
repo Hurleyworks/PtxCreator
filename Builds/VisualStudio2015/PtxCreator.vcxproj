@@ -135,7 +135,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\main.cpp"/>
-    <ClCompile Include="..\..\Source\PtxCreator.cpp"/>
+    <ClCompile Include="..\..\Source\NanoApp.cpp"/>
     <ClCompile Include="..\..\Source\NanoController.cpp"/>
     <ClCompile Include="..\..\Source\NanoLog.cpp"/>
     <ClCompile Include="..\..\Source\NanoModel.cpp"/>
@@ -382,7 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\FileTools.h"/>
-    <ClInclude Include="..\..\Source\PtxCreator.h"/>
+    <ClInclude Include="..\..\Source\NanoApp.h"/>
     <ClInclude Include="..\..\Source\NanoController.h"/>
     <ClInclude Include="..\..\Source\NanoLog.hpp"/>
     <ClInclude Include="..\..\Source\NanoModel.h"/>
